@@ -1,0 +1,298 @@
+body{background-color: white; margin: 0;}
+
+header{height: 120px; user-select: none;}
+
+.container{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.title{
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+}
+.title > h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.subtitle{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  position: relative;
+  font-family: "optima",sans-serif;
+  font-style: italic;
+  color: white;
+  user-select: none;
+}
+#r_square{
+  background: linear-gradient(to left,rgb(150,0,0) 20%,rgb(255,0,255));
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+#R{
+  position: absolute;
+  top: 40px;
+  left: 53px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#iddle{
+  position: absolute;
+  top: 44px;
+  left: 73px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.subtitle h1,h2{
+  position:absolute;
+  top: 36px;
+  left: 135px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 14px;
+}
+.subtitle h2{position:absolute;left: 293px;}
+
+.genre {
+  font-family: "optima",sans-serif;
+  font-size: 20px;
+  width: 300px; height: 30px;
+  margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+  font-family: "optima",sans-serif;
+}
+
+.thumbnail {
+  position: relative;
+  width: 340px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.blank{width: 340px;}
+
+.title_HL {
+  width: 0; height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 0;
+  border-color: rgb(150,0,0) transparent transparent transparent;
+  position: absolute;
+}
+
+
+.outer{
+  position: relative;
+  width: 180px;
+  height: 200px;
+  letter-spacing: .03em;
+}
+.black{
+  position: absolute; left: 30px; top:10px;
+  margin: 0;
+  color:white; z-index:2; white-space: nowrap;
+  font-weight: bolder; font-size: 19px;
+}
+#long_ja{top:8px; font-size: 17px;}
+
+.white_5 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_4 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_tw9 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_tw4 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_tw3 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_tw2 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_5::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Need U to thINK Twice";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_4::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Nizi Utube Doga Nazo";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_3::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Magic Square";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_2::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Nizi Nazo";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_1::after{
+  position:absolute; left: 30px; top:8px;
+  content:"強いられた思考";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw9::after{
+  position:absolute; left: 30px; top:8px;
+  content:"論理パズル：プロフィール";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw8::after{
+  position:absolute; left: 30px; top:10px;
+  content:"12 squares";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw7::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Happy New Year";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw6::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Name Miracle2";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw5::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Name Miracle";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw4::after{
+  position:absolute; left: 30px; top:8px;
+  content:"論理パズル：写真の整列順";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw3::after{
+  position:absolute; left: 30px; top:10px;
+  content:"You're my favorite song!";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw2::after{
+  position:absolute; left: 30px; top:8px;
+  content:"論理パズル：9人の関係性";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw1::after{
+  position:absolute; left: 30px; top:10px;
+  content:"6/1 Comeback!";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_0::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Password";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+
+
+.line_b {
+  position: absolute; left: 30px; top:32px;
+  width:150px; height:2px;
+  background-color: rgb(150,0,0);}
+.line_w {
+  position: absolute; left: 180px; top:32px;
+  width:160px; height:2px; z-index: 3;
+  background-color: white;}
+.content_HL {
+  width: 160px; height: 160px;
+  background-color: rgb(150,0,0);
+  position: absolute; left: 180px; top:0px;
+}
+
+.date{position: absolute; top: 192px; right: 0;}
+.thumbnail>a{
+  position: absolute; top: 63px; z-index: 2; height:126px;
+  border-style:solid; border-width: 1px; border-color: rgb(150,0,0);}
+.thumbnail>img {
+  position: absolute; top: 63px; z-index: 2;
+}
+.thumbnail>a:hover{transform: scale(1.05, 1.05); cursor: pointer;}
+
+#tw_0511{height:114px;}
+#tw_0627{height:118px;}
+
+.difficulty{
+  position: absolute;
+  left: 208px; top: 40px;
+  color: white; font-size: 12px;
+}
+#box_t {position: absolute; left: 234px; top: 90px;}
+#check_t {position: absolute; left: 238px; top: 90px;}
+#box_n {position: absolute; left: 234px; top: 120px;}
+#check_n {position: absolute; left: 238px; top: 120px;}
+#motif_t {
+  position: absolute; left: 265px; top: 90px;
+  color: white;}
+#motif_n {
+  position: absolute; left: 265px; top: 120px;
+  color: white;}
+
+@media only screen and (min-width: 768px){
+  .popup:focus, .popup:active{
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+    height: 80%; width: 80%;
+    z-index: 100;
+    pointer-events: none;
+  }
+}
+
+footer {
+  width: 200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  user-select: none;}
+footer p{
+  position: absolute;
+  left: 12px;
+}
+footer a{
+  position: absolute;
+  left: 87px;
+  text-decoration: none;
+  color: black}
+
+@media only screen and (max-width: 767px){
+  .subtitle h1{top: 20px;}
+  .subtitle h2{left: 180px;}
+  footer{font-size: 13px; margin-top: 30px;}
+  footer p{left:30px;}
+  footer a{left:90px;}
+  .popup:hover{
+    position: fixed; top:0; left:0; right:0; bottom:0;
+    margin:auto; height: 32%; width: auto;
+    z-index: 100;}
+}
