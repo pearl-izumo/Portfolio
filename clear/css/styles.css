@@ -1,0 +1,63 @@
+body{background-color: white; margin: 0;}
+
+header{height: 120px; user-select: none;}
+
+.container{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.title{
+  height: 70px;
+  margin-left: auto; margin-right: auto;
+  font-family: "optima",sans-serif;
+}
+.title > h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.subtitle{
+  background-color: black; height: 80px;
+  display: flex; position: relative;
+  font-family: "optima",sans-serif; font-style: italic; color: white;
+  user-select: none;
+}
+#a_square{
+  background: linear-gradient(to left,#f93 20%,#960);
+  width: 50px; height: 50px;
+  position: absolute; top: 15px; left: 20px;
+}
+#A{
+  position: absolute; top: 40px; left: 53px;
+  color: white;
+  font-size: 25px; font-weight: bolder;
+}
+#nswer{
+  position: absolute;
+  top: 44px; left: 73px;
+  font-size: 20px; font-weight: bolder;
+}
+.subtitle h1{
+  position: absolute; top: 36px; left: 140px;
+  font-family: sans-serif; font-weight: bolder; font-style: normal; font-size: 14px;
+}
+.text{
+  line-height: 10px; text-align: center;
+  width: 350px; font-size: 12px; margin: 60px auto; font-family: sans-serif;
+}
+.text h1,h2{font-weight: lighter;}
+.text p{text-align:left; margin-top:60px; line-height: 20px;}
+
+
+
+footer {
+  display: flex; text-align: center;
+  font-size: 14px;
+  margin-top: 40px; margin-bottom: 60px;
+  user-select: none;
+}
+footer p{margin-left: auto; margin-right: auto; text-align: center;}
+footer a{text-decoration: none; color: black;}
