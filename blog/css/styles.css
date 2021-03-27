@@ -358,7 +358,7 @@ footer p{
 }
 footer a{
   position: absolute;
-  left: 87px;
+  left: 87px; top: 33px;
   text-decoration: none;
   color: black}
 
