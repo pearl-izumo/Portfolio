@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>The Portfolio of pearl_izumo</title>
+  <link rel="icon" href="../image/pearl.png">
+  <meta name="description" content="Game一覧">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="title">
+        <h1>The Portfolio of pearl_izumo</h1>
+      </div>
+    </div>
+  </header>
+  <section class="subtitle">
+    <div id="g_square"></div>
+    <div id="G">G</div>
+    <div id="ame">ame</div>
+    <h1>ブラウザで遊べる</h1><h2>簡単なパズルゲーム</h2>
+  </section>
+  <ul class="list">
+    <li>
+      <div class="listbox">
+        <div class="thumbnail">
+          <div class="title_HL"></div>
+          <div class="outer">
+            <div class="white_g1"></div>
+            <div class="line_b"></div><div class="line_w"></div>
+            <div class="content_HL"></div>
+          </div>
+          <div class="date">2021/02/25 Released</div>
+          <a href="https://pearl-izumo.github.io/Eyeswideopen/" target="_blank"><img src="../image/thumbnail/20210225.png" width=224px></a>
+          <div class="contentbox">
+            <div class="difficulty">難易度：★★★☆☆</div>
+            <div class="motif">
+              <img id=box_t src="../image/box_t.png" width=20px>
+              <img id=box_n src="../image/box_n.png" width=20px>
+              <img id=check_t src="../image/check_t.png" width=20px>
+              <img id=check_n src="../image/check_n.png" width=20px>
+              <div id="motif_t">TWICE</div><div id="motif_n">NiziU</div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </li>
+    <li>
+      <div class="listbox">
+        <div class="thumbnail">
+          <div class="title_HL"></div>
+          <div class="outer">
+            <h3 class="black"></h3>
+            <div class="white_g0"></div>
+            <div class="line_b"></div><div class="line_w"></div>
+            <div class="content_HL"></div>
+          </div>
+          <div class="date">????/??/?? Hidden</div>
+          <input type="image" src="../image/thumbnail/20201108.png" width=224px onclick="gate()">
+          <div class="contentbox">
+            <div class="difficulty">難易度：★★☆☆☆</div>
+            <div class="motif">
+              <img id=box_t src="../image/box_t.png" width=20px>
+              <img id=box_n src="../image/box_n.png" width=20px>
+              <img id=check_t src="../image/check_t.png" width=20px>
+              <div id="motif_t">TWICE</div><div id="motif_n">NiziU</div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </li>
+    <li>
+      <div class="listbox">
+        <div class="blank"></div>
+      </div>
+    </li>
+    <li>
+      <div class="listbox">
+        <div class="blank"></div>
+      </div>
+    </li>
+    <li>
+      <div class="listbox">
+        <div class="blank"></div>
+      </div>
+    </li>
+  </ul>
+
+  <script type="text/javascript">
+    var p = String.fromCharCode(116,119,105,99,101) 
+    function gate(){
+      password=prompt("赤色のページにあるpasswordが必要です！");
+      if (password==p){location.href = "https://google.co.jp";
+      }else{alert("Access Error")}
+    }
+  </script>  
+  <footer>
+    <p>created by</p>
+    <a href="https://twitter.com/pearl_izumo" target="_blank">@pearl_izumo</a>
+  </footer>
+</body>
+
+</html>
