@@ -90,12 +90,12 @@
   });
   
   document.getElementById("r_direction").addEventListener("click", ()=>{
-    document.getElementById("check").textContent = "xxx";
+    location.href = 'https://pearl-izumo.github.io/portfolio/riddle';
   });
   document.getElementById("g_direction").addEventListener("click", ()=>{
-    document.getElementById("check").textContent = "yyy";
+    location.href = 'https://pearl-izumo.github.io/portfolio/game';
   });
   document.getElementById("b_direction").addEventListener("click", ()=>{
-    document.getElementById("check").textContent = "zzz";
+    location.href = 'https://pearl-izumo.github.io/portfolio/blog';
   });
 }
