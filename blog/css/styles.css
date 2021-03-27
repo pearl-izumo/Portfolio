@@ -1,0 +1,375 @@
+body{background-color: white; margin: 0;}
+
+header{height: 120px; user-select: none;}
+
+.container{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.title{
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+}
+.title > h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.subtitle{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  position: relative;
+  font-family: "optima",sans-serif;
+  font-style: italic;
+  color: white;
+  user-select: none;
+}
+#b_square{
+  background: linear-gradient(to left,rgb(0,0,150) 20%,rgb(0,255,255));
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+#B{
+  position: absolute;
+  top: 40px;
+  left: 53px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#log{
+  position: absolute;
+  top: 44px;
+  left: 73px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.subtitle h1,h2{
+  position:absolute;
+  top: 36px;
+  left: 115px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 14px;
+}
+.subtitle h2{position:absolute;left: 240px;}
+
+.genre {
+  font-family: "optima",sans-serif;
+  font-size: 20px;
+  width: 300px; height: 30px;
+  margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+  font-family: "optima",sans-serif;
+}
+
+.thumbnail {
+  position: relative;
+  width: 340px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.blank{width: 340px;}
+
+.title_HL {
+  width: 0; height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 0;
+  border-color: rgb(0,0,150) transparent transparent transparent;
+  position: absolute;
+}
+
+
+.outer{
+  position: relative;
+  width: 180px;
+  height: 200px;
+  letter-spacing: .03em;
+}
+.black{
+  position: absolute; left: 30px; top:10px;
+  margin: 0;
+  color:white; z-index:2; white-space: nowrap;
+  font-weight: bolder; font-size: 19px;
+}
+#long_ja{top:8px; font-size: 17px;}
+#long_ja2{top:8px; font-size: 16px;}
+
+.white_5 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_4 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb1 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb2 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb3 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb4 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb7 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb11 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_hb13 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_no2 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_no3 {position:relative; width:180px; height:200px; overflow:hidden;}
+
+.white_hb16::after{
+  position:absolute; left: 30px; top:8px;
+  content:"無題";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb15::after{
+  position:absolute; left: 30px; top:10px;
+  content:"BETTER";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb14::after{
+  position:absolute; left: 30px; top:10px;
+  content:"audition";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb13::after{
+  position:absolute; left: 30px; top:8px;
+  content:"顔が好き and more...";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb12::after{
+  position:absolute; left: 30px; top:8px;
+  content:"「いい話」";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb11::after{
+  position:absolute; left: 30px; top:8px;
+  content:"ティーカップ・エモーション";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb10::after{
+  position:absolute; left: 30px; top:8px;
+  content:"挨拶";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb9::after{
+  position:absolute; left: 30px; top:10px;
+  content:"WISH";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb8::after{
+  position:absolute; left: 30px; top:6px;
+  content:"→2019→";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb7::after{
+  position:absolute; left: 30px; top:8px;
+  content:"主人公は、アイドルのように";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb6::after{
+  position:absolute; left: 30px; top:10px;
+  content:"LIGHTS";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb5::after{
+  position:absolute; left: 30px; top:8px;
+  content:"『Fake & True』";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb4::after{
+  position:absolute; left: 30px; top:8px;
+  content:"人生でいちばん楽しかった時間の話";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb3::after{
+  position:absolute; left: 30px; top:8px;
+  content:"APRICOT & NEON MAGENTA色の研究";
+  font-weight: bolder; font-size: 16px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb2::after{
+  position:absolute; left: 30px; top:8px;
+  content:"僕は石ころでありたい";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_hb1::after{
+  position:absolute; left: 30px; top:8px;
+  content:"僕が顔ファンである理由";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_no3::after{
+  position:absolute; left: 30px; top:10px;
+  content:"SOMEONE LIKE ME";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_no2::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Good Game is Finished";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_no1::after{
+  position:absolute; left: 30px; top:8px;
+  content:"胡蝶の夢";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_0::after{
+  position:absolute; left: 30px; top:8px;
+  content:"ゲームへの招待";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+
+
+.line_b {
+  position: absolute; left: 30px; top:32px;
+  width:150px; height:2px;
+  background-color: rgb(0,0,150);}
+.line_w {
+  position: absolute; left: 180px; top:32px;
+  width:160px; height:2px; z-index: 3;
+  background-color: white;}
+.content_HL {
+  width: 160px; height: 160px;
+  background-color: rgb(0,0,150);
+  position: absolute; left: 180px; top:0px;
+}
+
+.date{position: absolute; top: 192px; right: 0;}
+.thumbnail>a{
+  position: absolute; top: 63px; z-index: 2; height:126px; width:224px;
+  background-color: white;
+  border-style:solid; border-width: 1px; border-color: rgb(0,0,150);}
+
+.bbox{position: absolute; top: 0; z-index: 2;
+  height:126px; width:224px;
+  color: black; white-space: nowrap;
+}
+.bbox p{position: absolute; top: 70px; left: 8px; z-index: 2; font-weight: bolder;}
+.thumbnail>img {position: absolute; top: 63px; z-index: 2;}
+.thumbnail>a:hover{transform: scale(1.05, 1.05); cursor: pointer;}
+
+#hb1{background-color: magenta;}
+#hb1_p{color: white; font-size: 15px;}
+#hb2{background-color: gray;}
+#hb2_p{color: black; font-size: 15px;}
+#hb3{background-color: orange;}
+#hb3_p{color: blue; font-size: 15px;}
+#hb4{background-color: black;}
+#hb4_p{color: gold; font-size: 15px;}
+#hb5{background-color: salmon;}
+#hb5_p{color: white;}
+#hb6{background-color: purple;}
+#hb6_p{color: white;}
+#hb7{background-color: darkred;}
+#hb7_p{color: skyblue; font-size: 15px;}
+#hb8{background-color: green;}
+#hb8_p{color: red;}
+#hb9{background-color: wheat;}
+#hb9_p{color: firebrick;}
+#hb10{background-color: lightgray;}
+#hb10_p{font-size: 15px;}
+#hb11{background-color: chocolate;}
+#hb11_p{color:white; font-size: 15px;}
+#hb12{background-color: skyblue;}
+#hb12_p{color:deeppink; font-size: 15px;}
+#hb13{background-color: magenta;}
+#hb13_p{color: white; font-size: 15px;}
+#hb14{background-color: black;}
+#hb14_p{color:cyan; font-size: 15px;}
+#hb15{background-color:bisque;}
+#hb15_p{color:orangered; font-size: 15px;}
+#hb16{background-color: cyan;}
+#hb16_p{color: white; font-size: 15px;}
+#no1_p{color: salmon;}
+#no2{background-color: pink;}
+#no2_p{color:royalblue}
+#no3{background-color: red;}
+#no3_p{color:darkblue; font-size: 15px;}
+
+.words{
+  position: absolute;
+  left: 208px; top: 40px;
+  color: white; font-size: 12px;
+}
+#box_t {position: absolute; left: 234px; top: 90px;}
+#check_t {position: absolute; left: 238px; top: 90px;}
+#box_n {position: absolute; left: 234px; top: 120px;}
+#check_n {position: absolute; left: 238px; top: 120px;}
+#motif_t {
+  position: absolute; left: 265px; top: 90px;
+  color: white;}
+#motif_n {
+  position: absolute; left: 265px; top: 120px;
+  color: white;}
+
+@media only screen and (min-width: 768px){
+  .popup:focus, .popup:active{
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+    height: 80%; width: 80%;
+    z-index: 100;
+    pointer-events: none;
+  }
+}
+
+footer {
+  width: 200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  user-select: none;}
+footer p{
+  position: absolute;
+  left: 12px;
+}
+footer a{
+  position: absolute;
+  left: 87px;
+  text-decoration: none;
+  color: black}
+
+@media only screen and (max-width: 767px){
+  .subtitle h1{top: 20px;}
+  .subtitle h2{left: 160px;}
+  footer{font-size: 13px; margin-top: 30px;}
+  footer p{left:30px;}
+  footer a{left:90px;}
+  .popup:hover{
+    position: fixed; top:0; left:0; right:0; bottom:0;
+    margin:auto; height: 32%; width: auto;
+    z-index: 100;}
+}
