@@ -62,8 +62,9 @@ window.onload=function(){
   },false);
   document.getElementById("omt").addEventListener("click",function(){
     location.reload();},false);
-  // document.getElementsByClassName("n5").addEventListener("click",function(){
-  //   console.log("n5");},false);
+ document.getElementById("dir").addEventListener("click", ()=>{
+    location.href = 'https://pearl-izumo.github.io/portfolio/clear';
+  });
 
   var prev,flipNow,answer;
   var get = 0;
