@@ -1,0 +1,289 @@
+body{background-color: white; margin: 0;}
+
+header{height: 120px; user-select: none;}
+
+.container{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.title{
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+}
+.title > h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.subtitle{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  position: relative;
+  font-family: "optima",sans-serif;
+  font-style: italic;
+  color: white;
+  user-select: none;
+}
+#w_square{
+  background: linear-gradient(to left,white 20%,gray);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+#W{
+  position: absolute;
+  top: 40px;
+  left: 47px;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#orks{
+  position: absolute;
+  top: 45px;
+  left: 73px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.subtitle>p{
+  position:absolute;
+  top: 34px;
+  left: 130px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.shape{
+  position: relative;
+  isolation: isolate;
+  user-select: none;
+}
+.shape div{
+  align-items: center;
+  height: 100px;
+  display: flex;
+  font-family: "optima",sans-serif;
+  font-style: italic;
+  transition: 0.5s;
+}
+
+#r_square{
+  background: linear-gradient(to left,rgb(150,0,0) 20%,rgb(255,0,255));
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  top: 80px;
+  transform: rotate(10deg);
+  cursor: pointer;
+}
+#R{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 378px;
+  top: 80px;
+  color: white;
+}
+#iddle{
+  position: absolute;
+  font-size: 35px;
+  left: 408px;
+  top: 82px;
+  font-weight: bolder;
+}
+#click_riddle{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 408px;
+  top: 80px;
+  color: rgb(150,0,0);
+  opacity: 0;
+}
+.rLine {
+  position: absolute;
+  top: 67px;
+  left: 540px;
+  opacity: 0;
+}
+#r_line2 {
+  top: 87px;
+}
+
+#g_square{
+  background: linear-gradient(to left,rgb(0,150,0) 20%,rgb(255,255,0));
+  position: absolute;
+  left: 380px;
+  top: 175px;
+  width: 100px;
+  transform: rotate(-5deg);
+  cursor: pointer;
+}
+#G{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 450px;
+  top: 180px;
+  color: white;
+  z-index: 1;
+}
+#ame{
+  position: absolute;
+  font-size: 35px;
+  left: 485px;
+  top: 182px;
+  font-weight: bolder;
+}
+#click_game{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 485px;
+  top: 182px;
+  color: rgb(0,150,0);
+  opacity: 0;
+}
+.gLine {
+  position: absolute;
+  top: 167px;
+  left: 610px;
+  opacity: 0;
+}
+#g_line2 {
+  top: 187px;
+}
+
+#b_square{
+  background: linear-gradient(to left,rgb(0,0,150) 20%,rgb(0,255,255));
+  position: absolute;
+  opacity: 0.9;
+  left: 310px;
+  top: 265px;
+  width: 100px;
+  transform: rotate(5deg);
+  cursor: pointer;
+}
+#B{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 386px;
+  top: 280px;
+  color: white;
+  z-index: 2;
+}
+#log{
+  position: absolute;
+  font-size: 35px;
+  left: 415px;
+  top: 282px;
+  font-weight: bolder;
+}
+#click_blog{
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  left: 415px;
+  top: 282px;
+  color: rgb(0,0,150);
+  opacity: 0;
+}
+.bLine {
+  position: absolute;
+  top: 267px;
+  left: 512px;
+  opacity: 0;
+}
+#b_line2 {
+  top: 287px;
+}
+
+.dir {
+  position: absolute;
+  left: 20px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid rgb(150,0,0);
+  visibility: hidden;
+  cursor: pointer;
+}
+#r_direction{
+  height: 0px;
+  top: 106px;
+  left: 725px;
+  transition: 0s;
+}
+#g_direction{
+  height: 0px;
+  top: 206px;
+  left: 770px;
+  border-left: 20px solid rgb(0,150,0);
+  transition: 0s;
+}
+#b_direction{
+  height: 0px;
+  top: 306px;
+  left: 675px;
+  border-left: 20px solid rgb(0,0,150);
+  transition: 0s;
+}
+footer {
+  width: 200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  user-select: none;}
+footer p{
+  position: absolute;
+  left: 12px;
+}
+footer a{
+  position: absolute;
+  left: 87px;
+  text-decoration: none;
+  color: black}
+
+@media only screen and (max-width: 767px){
+  #r_square{left: 50px; top: 60px; cursor: none;}
+  #R{left: 128px; top: 60px;}
+  #iddle{left: 158px; top: 60px;}
+  #click_riddle{font-size: 35px;left: 158px; top: 60px;}
+  .rLine {font-size: 12px; top: 85px; left: 178px;}
+  #r_line2 {top: 100px; left: 208px;}
+  #g_square{left: 80px; top: 165px; transform:rotate(-15deg); cursor: none;}
+  #G{left: 150px; top: 160px;}
+  #ame{left: 187px; top: 162px;}
+  #click_game{font-size: 35px; left: 187px; top: 162px;}
+  .gLine {font-size: 12px; top: 187px; left: 210px;}
+  #g_line2 {top: 202px; left: 220px;}
+  #b_square{left: 50px; top: 270px; transform:rotate(3deg); cursor: none;}
+  #B{left: 126px; top: 272px;}
+  #log{left: 156px; top: 274px;}
+  #click_blog{font-size: 35px; left: 156px; top: 274px;}
+  .bLine {font-size: 12px; top: 305px; left: 179px;}
+  #b_line2 {top: 320px; left: 195px;}
+  #r_direction{top: 122px; left: 330px; cursor: none;}
+  #g_direction{top: 222px; left: 340px; cursor: none;}
+  #b_direction{top: 340px; left: 315px; cursor: none;}
+  footer{font-size: 13px; margin-top: 120px;}
+  footer p{left:30px;}
+  footer a{left:90px;}
+}
