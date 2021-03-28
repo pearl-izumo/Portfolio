@@ -12,7 +12,7 @@
   <header>
     <div class="container">
       <div class="title">
-        <h1>The Portfolio of pearl_izumo</h1>
+        <h1 id="TITLE">The Portfolio of pearl_izumo</h1>
       </div>
     </div>
   </header>
@@ -584,6 +584,14 @@
       </div>
     </li>
   </ul>
+  
+  <script type="text/javascript">
+    const title = document.getElementById("TITLE");
+    title.addEventListener("click",function(){
+      location.href = "https://pearl-izumo.github.io/portfolio";
+    },false);
+  </script>
+  
   <footer>
     <p>created by</p>
     <a href="https://twitter.com/pearl_izumo" target="_blank">@pearl_izumo</a>
