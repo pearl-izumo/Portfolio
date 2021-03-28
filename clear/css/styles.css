@@ -51,13 +51,24 @@ header{height: 120px; user-select: none;}
 .text h1,h2{font-weight: lighter;}
 .text p{text-align:left; margin-top:60px; line-height: 20px;}
 
-
-
 footer {
-  display: flex; text-align: center;
-  font-size: 14px; font-family: "optima";
-  margin-top: 40px; margin-bottom: 60px;
-  user-select: none;
+  width: 200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "optima",sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  user-select: none;}
+footer p{
+  position: absolute;
+  left: 12px;
 }
-footer p{margin-left: auto; margin-right: auto; text-align: center;}
-footer a{text-decoration: none; color: black;}
+footer a{
+  position: absolute;
+  left: 87px; top: 36px;
+  text-decoration: none;
+  color: black}
