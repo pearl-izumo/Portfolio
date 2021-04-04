@@ -114,6 +114,7 @@ ul {
 
 .white_5 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_4 {position:relative; width:180px; height:200px; overflow:hidden;}
+.white_tw10 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_tw9 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_tw4 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_tw3 {position:relative; width:180px; height:200px; overflow:hidden;}
@@ -145,6 +146,12 @@ ul {
 .white_1::after{
   position:absolute; left: 30px; top:8px;
   content:"強いられた思考";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
+.white_tw10::after{
+  position:absolute; left: 30px; top:8px;
+  content:"論理パズル：NiziUの誕生日";
   font-weight: bolder; font-size: 17px;
   white-space: pre; color:black; z-index: 2;
 }
