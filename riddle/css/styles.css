@@ -155,6 +155,12 @@ ul {
   font-weight: bolder; font-size: 17px;
   white-space: pre; color:black; z-index: 2;
 }
+.white_tw11::after{
+  position:absolute; left: 30px; top:8px;
+  content:"トリコロール";
+  font-weight: bolder; font-size: 17px;
+  white-space: pre; color:black; z-index: 2;
+}
 .white_tw10::after{
   position:absolute; left: 30px; top:8px;
   content:"論理パズル：NiziUの誕生日";
