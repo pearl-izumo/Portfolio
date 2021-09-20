@@ -112,9 +112,16 @@ ul {
 }
 #long_ja{top:8px; font-size: 17px;}
 
+.white_g2 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_g1 {position:relative; width:180px; height:200px; overflow:hidden;}
 .white_g0 {position:relative; width:180px; height:200px; overflow:hidden;}
 
+.white_g2::after{
+  position:absolute; left: 30px; top:10px;
+  content:"Yes or ...?";
+  font-weight: bolder; font-size: 19px;
+  white-space: pre; color:black; z-index: 2;
+}
 .white_g1::after{
   position:absolute; left: 30px; top:10px;
   content:"Eyes Wide Open";
