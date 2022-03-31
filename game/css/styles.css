@@ -119,7 +119,7 @@ ul {
 
 .white_g3::after{
   position:absolute; left: 30px; top:10px;
-  content:"Yes or ...?";
+  content:"NiziUdle";
   font-weight: bolder; font-size: 19px;
   white-space: pre; color:black; z-index: 2;
 }
